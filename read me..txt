@@ -1,0 +1,59 @@
+# Language Detection with Machine Learning
+
+## Project Overview
+This project aims to build a machine learning model to detect the language of a given text. Using a dataset with sentences from 22 different languages, the model will be able to predict the language based on the input text.
+
+## Dataset
+The dataset used for this project contains the following languages:
+- Persian
+- Korean
+- Indonesian
+- Dutch
+- Estonian
+- Hindi
+- Urdu
+- French
+- Turkish
+- Latin
+- Arabic
+- Russian
+- Thai
+- Spanish
+- English
+- Japanese
+- Pushto
+- Chinese
+- Tamil
+- Swedish
+- Romanian
+- Portuguese
+
+Each language has 1000 sentences.
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+
+## Steps
+1. **Data Loading:** Load the dataset.
+2. **Data Analysis:** Check for null values and display language distribution.
+3. **Data Preprocessing:** Convert text data into numerical data using `CountVectorizer`.
+4. **Model Training:** Split the data into training and test sets, and train a `MultinomialNB` model.
+5. **Model Evaluation:** Evaluate the model's accuracy on the test set.
+6. **Language Prediction:** Use the trained model to predict the language of a user input text.
+
+## Usage
+1. Ensure you have the necessary Python libraries installed:
+    ```bash
+    pip install pandas numpy scikit-learn
+    ```
+2. Run the Python script:
+    ```bash
+    python language_detection.py
+    ```
+3. The script will prompt you to enter a text. After entering the text, it will print the predicted language.
+
+## Author
+Kishore Sakthivel
